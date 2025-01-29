@@ -13,6 +13,16 @@ wget -O dragon.sh https://raw.githubusercontent.com/dunkel000/QuantDragon/2a473a
 chmod +x dragon.sh
 ./dragon.sh
 ```
+
+Or
+
+```bash
+curl -o dragon.sh https://raw.githubusercontent.com/dunkel000/QuantDragon/main/dragon.sh
+chmod +x dragon.sh
+./dragon.sh
+```
+
+
 This script will:
 ✅ Create a virtual environment (`quantdragon-env`)  
 ✅ Install essential quant libraries (`numpy`, `pandas`, `scipy`, `matplotlib`, `seaborn`, etc.)  
