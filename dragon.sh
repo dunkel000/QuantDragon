@@ -16,6 +16,7 @@ pip install yfinance pandas-datareader alpha_vantage
 pip install statsmodels scikit-learn quantlib riskfolio-lib
 pip install cvxpy scipy pyportfolioopt
 pip install ipykernel jupyter_contrib_nbextensions
+pip install lean
 
 # Register kernel in Jupyter
 python -m ipykernel install --user --name=quantdragon-env --display-name "🐉 Python (quantdragon-env) 🔥"
